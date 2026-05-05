@@ -69,7 +69,7 @@ st.markdown("---")
 st.subheader("Labor ROI Framing")
 
 # Using a standard f-string without extra spaces in the formatting
-info_text = f"**Estimated Monthly Savings:** ${monthly_savings:,.2f} | **Estimated Annual Savings:** ${annual_savings:,.2f}"
+info_text = f"Estimated Monthly Savings: ${monthly_savings:,.2f} | Estimated Annual Savings: ${annual_savings:,.2f}"
 st.info(info_text)
 
 # Using standard '*' for multiplication to avoid encoding boxes
